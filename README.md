@@ -19,9 +19,11 @@ This plugin requires [Standalone PHPEnkoder][sp].
 Installation
 ------------
 
-1. Clone repository using `git clone --recursive https://github.com/miranj/craft-obfuscator`.
+1. Clone repository using `git clone --recursive https://github.com/miranj/craft-obfuscator` (or download and unzip Package.zip from [latest release][latest].  
 2. Place the `obfuscator` folder inside your `craft/plugins/` folder.
 3. Go to Settings > Plugins inside your Control Panel and install **Obfuscator**.
+
+[latest]: https://github.com/miranj/craft-obfuscator/releases/latest
 
 
 Usage
