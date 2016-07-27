@@ -23,6 +23,11 @@ class ObfuscatorPlugin extends BasePlugin
         return 'http://miranj.in';
     }
 
+    public function getReleaseFeedUrl()
+    {
+        return 'https://raw.githubusercontent.com/miranj/craft-obfuscator/master/releases.json';
+    }
+
     public function addTwigExtension()
     {
         Craft::import('plugins.obfuscator.twigextensions.ObfuscatorTwigExtension');
