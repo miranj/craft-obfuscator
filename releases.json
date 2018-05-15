@@ -7,9 +7,9 @@
             "First release."
         ]
     },{
-        "version": "0.2",
-        "downloadUrl": "https://github.com/miranj/craft-obfuscator/archive/v0.2.zip",
-        "date": "2018-05-15T02:12:00+05:30",
+        "version": "0.2.1",
+        "downloadUrl": "https://github.com/miranj/craft-obfuscator/archive/v0.2.1.zip",
+        "date": "2018-05-15T02:42:00+05:30",
         "notes": [
             "Includes dependencies using composer."
         ]
