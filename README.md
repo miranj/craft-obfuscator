@@ -7,11 +7,7 @@ A [Craft CMS][craft] plugin that adds a [Twig][twig] filter to obfuscate emails 
 [twig]:http://twig.sensiolabs.org/
 [he]:http://hivelogic.com/enkoder/
 
-
-Dependency
-----------
-
-This plugin requires [Standalone PHPEnkoder][sp].
+This plugin uses [Standalone PHPEnkoder][sp].
 
 [sp]: https://github.com/jnicol/standalone-phpenkoder
 
@@ -19,7 +15,7 @@ This plugin requires [Standalone PHPEnkoder][sp].
 Installation
 ------------
 
-1. Clone repository using `git clone --recursive https://github.com/miranj/craft-obfuscator` (or download and unzip Package.zip from [latest release][latest].  
+1. Clone repository (or download and unzip Package.zip from [latest release][latest].  
 2. Place the `obfuscator` folder inside your `craft/plugins/` folder.
 3. Go to Settings > Plugins inside your Control Panel and install **Obfuscator**.
 
