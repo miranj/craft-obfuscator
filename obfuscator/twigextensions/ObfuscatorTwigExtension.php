@@ -5,7 +5,6 @@ namespace Craft;
 use Twig_Extension;  
 use Twig_Filter_Method;
 
-require_once(CRAFT_PLUGINS_PATH . 'obfuscator/lib/StandalonePHPEnkoder.php');
 
 class ObfuscatorTwigExtension extends \Twig_Extension
 {

@@ -3,6 +3,11 @@ namespace Craft;
 
 class ObfuscatorPlugin extends BasePlugin
 {
+    function init()
+    {
+        require_once dirname(__DIR__).'/vendor/autoload.php';
+    }
+
     function getName()
     {
         return Craft::t('Obfuscator');
