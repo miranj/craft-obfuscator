@@ -1,3 +1,0 @@
-[submodule "obfuscator/lib"]
-	path = obfuscator/lib
-	url = https://github.com/jnicol/standalone-phpenkoder
