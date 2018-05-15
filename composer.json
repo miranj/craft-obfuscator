@@ -3,25 +3,28 @@
   "description": "A Craft CMS plugin that adds a Twig filter to obfuscate emails or any other content using Hivelogic Enkoder.",
   "type": "craft-plugin",
   "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "jnicol/standalone-phpenkoder",
-                "version": "master",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://github.com/jnicol/standalone-phpenkoder/archive/master.zip"
-                }
+  "config": {
+    "vendor-dir": "obfuscator/vendor"
+  },
+  "repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "jnicol/standalone-phpenkoder",
+            "version": "master",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/jnicol/standalone-phpenkoder/archive/master.zip"
             }
         }
+    }
   ],
   "require": {
     "jnicol/standalone-phpenkoder": "dev-master"
   },
   "autoload": {
     "classmap": [
-      "vendor/jnicol/standalone-phpenkoder/StandalonePHPEnkoder.php"    
+      "obfuscator/vendor/jnicol/standalone-phpenkoder/StandalonePHPEnkoder.php"    
     ]
   }
 }

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb4e263c2c139d7adee6bcc6e6289c7b2
+class ComposerStaticInit200c7cf6d37a6417e9de97d7f79f0924
 {
     public static $classMap = array (
         'StandalonePHPEnkoder' => __DIR__ . '/..' . '/jnicol/standalone-phpenkoder/StandalonePHPEnkoder.php',
@@ -13,7 +13,7 @@ class ComposerStaticInitb4e263c2c139d7adee6bcc6e6289c7b2
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInitb4e263c2c139d7adee6bcc6e6289c7b2::$classMap;
+            $loader->classMap = ComposerStaticInit200c7cf6d37a6417e9de97d7f79f0924::$classMap;
 
         }, null, ClassLoader::class);
     }
