@@ -19,7 +19,7 @@
     }
   ],
   "support": {
-    "docs": "https://github.com/miranj/craft-obfuscator/blob/master/README.md",
+    "docs": "https://github.com/miranj/craft-obfuscator/blob/v1/README.md",
     "issues": "https://github.com/miranj/craft-obfuscator/issues",
     "source": "https://github.com/miranj/craft-obfuscator"
   },
@@ -37,7 +37,7 @@
   "extra": {
     "name": "Obfuscator",
     "handle": "obfuscator",
-    "changelogUrl": "https://raw.githubusercontent.com/miranj/obfuscator/master/CHANGELOG.md",
+    "changelogUrl": "https://raw.githubusercontent.com/miranj/obfuscator/v1/CHANGELOG.md",
     "class": "miranj\\obfuscator\\Obfuscator"
   }
 }
