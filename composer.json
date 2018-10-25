@@ -1,30 +1,43 @@
 {
   "name": "miranj/craft-obfuscator",
-  "description": "A Craft CMS plugin that adds a Twig filter to obfuscate emails or any other content using Hivelogic Enkoder.",
+  "description": "Adds a Twig filter to obfuscate emails using Hivelogic Enkoder.",
   "type": "craft-plugin",
-  "minimum-stability": "dev",
-  "config": {
-    "vendor-dir": "obfuscator/vendor"
-  },
-  "repositories": [
+  "version": "1.0.0",
+  "keywords": [
+    "craft-plugin",
+    "craftcms",
+    "email",
+    "encode",
+    "obfuscate",
+    "enkoder"
+  ],
+  "license": "MIT",
+  "authors": [
     {
-        "type": "package",
-        "package": {
-            "name": "jnicol/standalone-phpenkoder",
-            "version": "master",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/jnicol/standalone-phpenkoder/archive/master.zip"
-            }
-        }
+      "name": "Miranj",
+      "homepage": "https://miranj.in"
     }
   ],
+  "support": {
+    "docs": "https://github.com/miranj/craft-obfuscator/blob/master/README.md",
+    "issues": "https://github.com/miranj/craft-obfuscator/issues",
+    "source": "https://github.com/miranj/craft-obfuscator"
+  },
   "require": {
-    "jnicol/standalone-phpenkoder": "dev-master"
+    "craftcms/cms": "^3.0.0"
   },
   "autoload": {
     "classmap": [
-      "obfuscator/vendor/jnicol/standalone-phpenkoder/StandalonePHPEnkoder.php"    
-    ]
+      "lib/StandalonePHPEnkoder.php"
+    ],
+    "psr-4": {
+      "miranj\\obfuscator\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Obfuscator",
+    "handle": "obfuscator",
+    "changelogUrl": "https://raw.githubusercontent.com/miranj/obfuscator/master/CHANGELOG.md",
+    "class": "miranj\\obfuscator\\Obfuscator"
   }
 }

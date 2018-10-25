@@ -1,0 +1,11 @@
+# OS Cruft
+.DS_Store
+
+# Environment
+.env
+.tm_properties
+.sublime-project
+.sublime-workspace
+
+# Package Managers
+vendor

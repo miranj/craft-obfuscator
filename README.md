@@ -12,19 +12,27 @@ This plugin uses [Standalone PHPEnkoder][sp].
 [sp]: https://github.com/jnicol/standalone-phpenkoder
 
 
+Requirements
+------------
+This plugin requires Craft CMS 3.0.0 or later.
+
+
 Installation
 ------------
 
-1. Clone repository (or download and unzip Package.zip from [latest release][latest].  
-2. Place the `obfuscator` folder inside your `craft/plugins/` folder.
-3. Go to Settings > Plugins inside your Control Panel and install **Obfuscator**.
+1. Open your terminal and go to your Craft project:
 
-[latest]: https://github.com/miranj/craft-obfuscator/releases/latest
+        cd /path/to/project
+
+2. Then tell Composer to load the plugin:
+
+        composer require miranj/obfuscator
+
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Obfuscator.
 
 
 Usage
 -----
-
 ```
 {{ 'Reach us on me@example.com or <a href="mailto:anotherme@example.com">here</a>.' | enkode_emails }}
 ```
@@ -44,3 +52,8 @@ Usage
 ```
 {{ 'If you don’t have JavaScript, you’ll see a helpful message.' | enkode('JavaScript is required to view this message.') }}
 ```
+
+
+---
+
+Brought to you by [Miranj](https://miranj.in/)
