@@ -14,7 +14,8 @@ This plugin uses [Standalone PHPEnkoder][sp].
 
 Requirements
 ------------
-This plugin requires Craft CMS 3.0.0 or later.
+This plugin requires Craft CMS 3.0.0 or later. The Craft 2 version is availabe in [the v0 branch](https://github.com/miranj/craft-obfuscator/tree/v0).
+
 
 
 Installation
