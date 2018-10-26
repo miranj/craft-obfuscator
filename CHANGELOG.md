@@ -2,6 +2,10 @@
 Release notes for the Obfuscator Craft CMS plugin.
 
 
+## 1.0.1 - 2018-10-26
+### Fixed
+- Fixed unicode and multibyte character support.
+
 ## 1.0.0 - 2018-10-25
 ### Added
 - Added Craft 3 compatibility.
