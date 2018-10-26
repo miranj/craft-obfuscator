@@ -201,9 +201,10 @@ EOT;
     // Our base case -- we'll eventually evaluate this code.
     // Note that we're using innerHTML() since document.write() fails on
     // pages loaded using AJAX.
-    $kode = "document.getElementById('ENKODER_ID').outerHTML=\"" . 
+    // Use escape() + decodeURIComponent() to preserve multibyte unicode
+    $kode = "document.getElementById('ENKODER_ID').outerHTML=decodeURIComponent(escape(\"" . 
       addcslashes($content,"\\\'\"&\n\r<>") . 
-      "\";";
+      "\"));";
 
     $max_length = max($max_length, strlen($kode) + $this->min_length + 1);
     
