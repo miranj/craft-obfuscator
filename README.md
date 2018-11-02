@@ -14,22 +14,33 @@ This plugin uses [Standalone PHPEnkoder][sp].
 
 Requirements
 ------------
-This plugin requires Craft CMS 3.0.0 or later. The Craft 2 version is availabe in [the v0 branch](https://github.com/miranj/craft-obfuscator/tree/v0).
+This plugin requires Craft CMS 3.0.0 or later. The Craft 2 version is availabe in [the `v0` branch](https://github.com/miranj/craft-obfuscator/tree/v0).
 
 
 
 Installation
 ------------
 
-1. Open your terminal and go to your Craft project:
+You can install this plugin from the [Plugin Store][ps] or with Composer.
 
-        cd /path/to/project
+[ps]:https://plugins.craftcms.com/
 
-2. Then tell Composer to load the plugin:
+#### From the Plugin Store
+Go to the Plugin Store in your project’s Control Panel and search for “Obfuscator”.
+Then click on the “Install” button in its modal window.
 
-        composer require miranj/obfuscator
+#### Using Composer
+Open your terminal and run the following commands:
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Obfuscator.
+    # go to the project directory
+    cd /path/to/project
+    
+    # tell composer to use the plugin
+    composer require miranj/craft-obfuscator
+    
+    # tell Craft to install the plugin
+    ./craft install/plugin obfuscator
+    
 
 
 Usage
