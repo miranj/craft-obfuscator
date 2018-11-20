@@ -2,6 +2,10 @@
 Release notes for the Obfuscator Craft CMS plugin.
 
 
+## Unreleased
+### Fixed
+- Fixed reference to script DOM node for cleanup
+
 ## 1.0.1 - 2018-10-26
 ### Fixed
 - Fixed unicode and multibyte character support.
