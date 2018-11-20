@@ -2,7 +2,7 @@
 Release notes for the Obfuscator Craft CMS plugin.
 
 
-## Unreleased
+## 1.0.2 - 2018-11-20
 ### Fixed
 - Fixed reference to script DOM node for cleanup
 
