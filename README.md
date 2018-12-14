@@ -1,5 +1,6 @@
-Obfuscator
-==========
+<p align="center"><img src="./src/icon.svg" width="100" height="100" alt="Obfuscator icon"></p>
+
+<h1 align="center">Obfuscator</h1>
 
 A [Craft CMS][craft] plugin that adds a [Twig][twig] filter to obfuscate emails or any other content using [Hivelogic Enkoder][he].
 
