@@ -37,7 +37,7 @@
   "extra": {
     "name": "Obfuscator",
     "handle": "obfuscator",
-    "changelogUrl": "https://raw.githubusercontent.com/miranj/obfuscator/v1/CHANGELOG.md",
+    "changelogUrl": "https://raw.githubusercontent.com/miranj/craft-obfuscator/v1/CHANGELOG.md",
     "class": "miranj\\obfuscator\\Obfuscator"
   }
 }
