@@ -1,8 +1,8 @@
-<p align="center"><img src="./src/icon.svg" width="100" height="100" alt="Obfuscator icon"></p>
+<img align="right" src="./src/icon.svg" width="100" height="100" alt="Obfuscator icon">
 
-<h1 align="center">Obfuscator</h1>
+# Obfuscator
 
-A [Craft CMS][craft] plugin that adds a [Twig][twig] filter to obfuscate emails or any other content using [Hivelogic Enkoder][he].
+A [Craft CMS][craft] 3 plugin that adds a [Twig][] filter to obfuscate emails or any other content using [Hivelogic Enkoder][he].
 
 [craft]:http://buildwithcraft.com/
 [twig]:http://twig.sensiolabs.org/
@@ -13,35 +13,14 @@ This plugin uses [Standalone PHPEnkoder][sp].
 [sp]: https://github.com/jnicol/standalone-phpenkoder
 
 
-Requirements
-------------
-This plugin requires Craft CMS 3.0.0 or later. The Craft 2 version is availabe in [the `v0` branch](https://github.com/miranj/craft-obfuscator/tree/v0).
+Contents
+--------
+- [Usage](#usage)
+- [Installation](#installation)
+- [Requirements](#requirements)
+- [Changelog](./CHANGELOG.md)
+- [License](./LICENSE.md)
 
-
-
-Installation
-------------
-
-You can install this plugin from the [Plugin Store][ps] or with Composer.
-
-[ps]:https://plugins.craftcms.com/obfuscator
-
-#### From the Plugin Store
-Go to the Plugin Store in your project’s Control Panel and search for “Obfuscator”.
-Then click on the “Install” button in its modal window.
-
-#### Using Composer
-Open your terminal and run the following commands:
-
-    # go to the project directory
-    cd /path/to/project
-    
-    # tell composer to use the plugin
-    composer require miranj/craft-obfuscator
-    
-    # tell Craft to install the plugin
-    ./craft install/plugin obfuscator
-    
 
 
 Usage
@@ -90,6 +69,39 @@ filters for more fine grained targeting of what to obfuscate.
 
 {{ 'If you don’t have JavaScript, you’ll see a helpful message.'|enkode('JavaScript is required to view this message.') }}
 ```
+
+
+
+Installation
+------------
+
+You can install this plugin from the [Plugin Store][ps] or with Composer.
+
+[ps]:https://plugins.craftcms.com/obfuscator
+
+#### From the Plugin Store
+Go to the Plugin Store in your project’s Control Panel and search for “Obfuscator”.
+Then click on the “Install” button in its modal window.
+
+#### Using Composer
+Open your terminal and run the following commands:
+
+    # go to the project directory
+    cd /path/to/project
+    
+    # tell composer to use the plugin
+    composer require miranj/craft-obfuscator
+    
+    # tell Craft to install the plugin
+    ./craft install/plugin obfuscator
+
+
+
+Requirements
+------------
+This plugin requires Craft CMS 3.0.0 or later. The Craft 2 version is availabe in [the `v0` branch](https://github.com/miranj/craft-obfuscator/tree/v0).
+
+
 
 ---
 
