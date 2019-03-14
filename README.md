@@ -24,7 +24,7 @@ Installation
 
 You can install this plugin from the [Plugin Store][ps] or with Composer.
 
-[ps]:https://plugins.craftcms.com/
+[ps]:https://plugins.craftcms.com/obfuscator
 
 #### From the Plugin Store
 Go to the Plugin Store in your project’s Control Panel and search for “Obfuscator”.
