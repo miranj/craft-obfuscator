@@ -75,7 +75,7 @@ class StandalonePHPEnkoder {
   private $enkodings;
 
   public function __construct() {
-    $this->email_regex = '[\w\d+_.-]+@(?:[\w\d_-]+\.)+[\w]{2,6}';
+    $this->email_regex = '[\w\d+_.-]+@(?:[\w\d_-]+\.)+[\w]{2,18}';
     // First matching group specifies banned first characters
     // Second matching group excludes email address preceded by =" i.e. src="img@2x.gif"
     $this->ptext_email = '/(?<=[^\/\w\d\+_.:-])(?<!=")(' . $this->email_regex . ')/i';

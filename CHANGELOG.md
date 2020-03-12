@@ -2,6 +2,13 @@
 Release notes for the Obfuscator Craft CMS plugin.
 
 
+## Unreleased
+
+### Fixed
+- Fixed email regex for longer TLDs. ([#3](https://github.com/miranj/craft-obfuscator/issues/3))
+
+
+
 ## 1.0.3 - 2019-07-31
 
 ### Fixed
