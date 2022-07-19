@@ -14,13 +14,13 @@ use miranj\obfuscator\Obfuscator;
 
 use Craft;
 use Craft\web\twig\Environment;
-use Twig_Extension;
-use Twig_Filter;
-use Twig_Markup;
+use Twig\Extension\AbstractExtension;
+use Twig\TwigFilter;
+use Twig\Markup;
 use StandalonePHPEnkoder;
 
 
-class ObfuscatorTwigExtension extends Twig_Extension
+class ObfuscatorTwigExtension extends AbstractExtension
 {
     protected $enkoder;
     
@@ -38,17 +38,17 @@ class ObfuscatorTwigExtension extends Twig_Extension
     {
         $needs_env = ['needs_environment' => true];
         return [
-            new Twig_Filter('enkode', [$this, 'enkodeFilter'], $needs_env),
-            new Twig_Filter('enkode_emails', [$this, 'enkodeEmailsFilter'], $needs_env),
-            new Twig_Filter('enkode_mailtos', [$this, 'enkodeMailtosFilter'], $needs_env),
-            new Twig_Filter('enkode_plaintext_emails', [$this, 'enkodePlaintextEmailsFilter'], $needs_env),
+            new TwigFilter('enkode', [$this, 'enkodeFilter'], $needs_env),
+            new TwigFilter('enkode_emails', [$this, 'enkodeEmailsFilter'], $needs_env),
+            new TwigFilter('enkode_mailtos', [$this, 'enkodeMailtosFilter'], $needs_env),
+            new TwigFilter('enkode_plaintext_emails', [$this, 'enkodePlaintextEmailsFilter'], $needs_env),
         ];
     }
     
     public function getTwigMarkup(Environment $env, $str)
     {
         $charset = $env->getCharset();
-        return new Twig_Markup($str, $charset);
+        return new Markup($str, $charset);
     }
     
     public function enkodeFilter(Environment $env, $str, $message = 'JavaScript is required to reveal this message.')
