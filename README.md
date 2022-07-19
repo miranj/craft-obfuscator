@@ -2,7 +2,7 @@
 
 # Obfuscator
 
-A [Craft CMS][craft] 3 plugin that adds a [Twig][] filter to obfuscate emails or any other content using [Hivelogic Enkoder][he].
+A [Craft CMS][craft] plugin that adds a [Twig][] filter to obfuscate emails or any other content using [Hivelogic Enkoder][he].
 
 [craft]:http://buildwithcraft.com/
 [twig]:http://twig.sensiolabs.org/
@@ -99,7 +99,7 @@ Open your terminal and run the following commands:
 
 Requirements
 ------------
-This plugin requires Craft CMS 3.0.0 or later. The Craft 2 version is availabe in [the `v0` branch](https://github.com/miranj/craft-obfuscator/tree/v0).
+This plugin requires Craft CMS 3 or 4. The Craft 2 version is availabe in [the `v0` branch](https://github.com/miranj/craft-obfuscator/tree/v0).
 
 
 

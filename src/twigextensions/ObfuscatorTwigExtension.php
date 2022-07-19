@@ -1,6 +1,6 @@
 <?php
 /**
- * Obfuscator plugin for Craft CMS 3.x
+ * Obfuscator plugin for Craft CMS 3.x, 4.x
  *
  * Adds a Twig filter to obfuscate emails using Hivelogic Enkoder.
  *
