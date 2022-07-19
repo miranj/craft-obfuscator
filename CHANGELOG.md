@@ -1,5 +1,14 @@
 # Obfuscator Changelog
+
 Release notes for the Obfuscator Craft CMS plugin.
+
+
+
+## Unreleased
+
+### Added
+- Added support for Craft 4. ([#6](https://github.com/miranj/craft-obfuscator/issues/6))
+
 
 
 ## 1.0.4 - 2020-03-12
