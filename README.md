@@ -29,10 +29,10 @@ Usage
 The following Twig snippet —
 
 ```twig
-{% filter enkode_emails %}
+{% apply enkode_emails %}
     Reach us on me@example.com or
     <a href="mailto:anotherme@example.com">here</a>.
-{% endfilter %}
+{% endapply %}
 ```
 
 will result in HTML where both the plain text email, and the `mailto:`
