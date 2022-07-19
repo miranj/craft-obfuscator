@@ -9,3 +9,4 @@
 
 # Package Managers
 vendor
+composer.lock
