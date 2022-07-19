@@ -93,7 +93,7 @@ Open your terminal and run the following commands:
     composer require miranj/craft-obfuscator
     
     # tell Craft to install the plugin
-    ./craft install/plugin obfuscator
+    ./craft plugin/install obfuscator
 
 
 
