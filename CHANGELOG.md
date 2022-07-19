@@ -4,6 +4,13 @@ Release notes for the Obfuscator Craft CMS plugin.
 
 
 
+## Unreleased
+
+### Fixed
+- Fixed a bug where `mailto:` links with newlines in the markup would not be obfuscated by the `|enkode_emails` filter. ([#4](https://github.com/miranj/craft-obfuscator/issues/4))
+
+
+
 ## 1.1.0 - 2022-07-19
 
 ### Added
